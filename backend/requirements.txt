@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+pillow
+pytesseract
+openai
+sqlalchemy
+psycopg[binary]
+PyJWT
+httpx
+pypdf
+upstash-redis
