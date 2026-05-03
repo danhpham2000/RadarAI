@@ -20,20 +20,32 @@ export function HomeActions() {
 
       {ready && isAuthenticated ? (
         <>
-          <Button asChild variant="outline" size="lg" className="h-12 rounded-full px-6">
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="h-12 rounded-full px-6"
+          >
             <Link href="/dashboard">View dashboard</Link>
           </Button>
-          <Button asChild variant="outline" size="lg" className="h-12 rounded-full px-6">
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="h-12 rounded-full px-6"
+          >
             <Link href="/settings">Open settings</Link>
           </Button>
         </>
       ) : (
         <>
-          <Button asChild variant="outline" size="lg" className="h-12 rounded-full px-6">
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="h-12 rounded-full px-6"
+          >
             <Link href="/login">Sign in</Link>
-          </Button>
-          <Button asChild variant="outline" size="lg" className="h-12 rounded-full px-6">
-            <Link href="/register">Create account</Link>
           </Button>
         </>
       )}
