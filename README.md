@@ -74,8 +74,9 @@ RadarAI returns:
 - Vercel
 - Railway
 
-Expanding infrastructure in the future:
+Expanding infrastructure and configuration in the future:
 
+- More powerful OpenAI model for more reasoning and scam detection capability
 - Terraform
 - DigitalOcean
 - Temporal
